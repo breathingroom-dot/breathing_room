@@ -1,0 +1,7 @@
+---
+layout: post
+title: The Second Step
+date: 2026-02-27
+---
+
+This is a brand new file I am experimenting with to figure out how all this works. 
