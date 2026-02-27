@@ -2,6 +2,7 @@
 layout: post
 title:  "The First Breath"
 date:   2026-02-27 15:06:00 -0600
+permalink: /:title/
 ---
 # Hello world
 
