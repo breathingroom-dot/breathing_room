@@ -9,4 +9,5 @@ author: Mary Szymanski
 
 plugins:
   - jekyll-feed
-minima: { skin: dark }
+minima:
+  skin: dark
