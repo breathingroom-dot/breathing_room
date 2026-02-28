@@ -1,15 +1,11 @@
-title: "Breathing Room"
-email: "ilikestarwars.15.5@gmail.com"
-description: >- 
-  a 20 something progressive Christian writing about politics and faith
-baseurl: "/breathing_room"
-url: "https://breathingroom-dot.github.io"
-twitter_username: MaryH77735165
-github_username: breathingroom-dot
-
-# Build settings
+title: Breathing Room
+baseurl: /breathing_room
+url: https://breathingroom-dot.github.io
 theme: minima
-plugins:
--jekyll-feed
 
-permalink: /:title/
+# Simple Settings
+description: a 20 something writing about politics and religion
+author: Mary Szymanski
+
+plugins:
+  - jekyll-feed
