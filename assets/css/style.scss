@@ -1,0 +1,23 @@
+---
+---
+@import "minima";
+// Force Dark Mode
+body {
+  background-color:
+    #111111 !important;
+  color: #E60000 !important;
+} 
+
+//Red for Links and Titles
+a, h1, h2 {
+  color: #E60000 !important;
+}
+
+//make the header dark too
+.site-header {
+  background-color:
+    #1a1a1a !important;
+  border-top: 5px solid
+    #E60000 !important;
+}
+
