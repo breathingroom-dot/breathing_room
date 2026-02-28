@@ -1,23 +1,31 @@
 ---
 ---
 @import "minima";
-// Force Dark Mode
-body {
+/*Target EVERYTHING including the home page wrappers */
+html, body,
+.site-header,
+.site-footer,
+.page-content,
+.wrapper,
+.home {
   background-color:
-    #111111 !important;
-  color: #E60000 !important;
-} 
+    #000000 !important;
+  color: #f0f0f0 !important;
+}
 
-//Red for Links and Titles
-a, h1, h2 {
+/*Ensure the list of posts on 
+the home page is readable */
+.post-link, .post-meta {
   color: #E60000 !important;
 }
 
-//make the header dark too
-.site-header {
-  background-color:
-    #1a1a1a !important;
-  border-top: 5px solid
-    #E60000 !important;
+/*Keep the titles and links Red */
+a, h1, h2, h3, .site-title {
+  color: #E6000 !important;
 }
 
+/*Make sure the breathing room 
+title at the top is red */
+.site-title, .site-title:visited {
+  color: #E60000 !important;
+}
